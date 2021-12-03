@@ -222,6 +222,7 @@ trigger:
   event:
   - push
   - tag
+  - pull_request
 
 depends_on:
 - testing
@@ -264,6 +265,8 @@ trigger:
   event:
   - push
   - tag
+  - pull_request
+
 
 depends_on:
 - testing
@@ -306,6 +309,7 @@ trigger:
   event:
   - push
   - tag
+  - pull_request
 
 depends_on:
 - testing
